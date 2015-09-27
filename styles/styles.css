@@ -1,0 +1,43 @@
+body
+{
+	//background: #BCE1F4;
+	font-family: Helvetica;
+
+}
+
+.navlinks
+{
+	//color: #FB2A59;
+	text-decoration: none;
+}
+h1
+{
+	text-align: center;
+	//text-decoration: underline;
+	
+}
+
+h2
+{
+	text-align: center;
+	//text-decoration: underline;
+	
+}
+
+td
+{
+	text-align: center;
+}
+#main-table
+{
+	display: table;
+}
+#navigation
+{
+	width: 150px;
+	display: table-cell;
+}
+#content
+{
+	display: table-cell;
+}
