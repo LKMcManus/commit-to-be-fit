@@ -1,43 +1,122 @@
 body
 {
-	//background: #BCE1F4;
-	font-family: Helvetica;
-
+	margin: 0px;
+	padding: 0px;
+	font-size: 12px;
+	font-family: Arial;
+//	background: #BCE1F4;
 }
 
-.navlinks
+/* controls whether to display the frame */
+#content-frame
 {
-	//color: #FB2A59;
-	text-decoration: none;
-}
-h1
-{
-	text-align: center;
-	//text-decoration: underline;
-	
+	/* border: none; */
 }
 
-h2
+/* setting for the site map navigation section*/
+#site-map
 {
-	text-align: center;
-	//text-decoration: underline;
-	
+	float: top;
+	width: 895px;
+	height: 30px;
+	overflow: auto;
+	margin: 5px;
+	text-align: left;
+	background: #9C9C9C;
 }
 
-td
+#course-header
 {
-	text-align: center;
+	font-size: 20px;
+	font-family: Arial;
+	text-align: Center;
 }
-#main-table
-{
-	display: table;
-}
+
+/* settings for the left side navigation section */
 #navigation
 {
 	width: 150px;
-	display: table-cell;
+	float: left;
+	height: 500px;
+	margin: 5px;
+	text-color: #000000;
+	//text-decoration: underline;
+	//background: #9C9C9C;
 }
-#content
+
+
+
+/* settings for the course content section */
+#main-content
 {
-	display: table-cell;
+	height: 500px;
+	width: 545px;
+	float: left;
+	margin: 5px;
+	//padding-left: 5px;
+	background: #9C9C9C;
 }
+
+#aside-info
+{
+	float: left;
+	width: 150px;
+	vertical-align: top;
+	padding-left: 5px;
+	text-align: left;
+	//background: #9C9C9C;
+}
+
+#aside-title-audio
+{
+	float: left;
+	width: 150px;
+	font-size: 14px;
+	font-weight: bold;
+	//background: #9C9C9C;
+	
+}
+
+#transcript
+{
+	//color: green;
+	font-size: 12px;
+	overflow: auto;
+	width: 150px;
+	background: #9C9C9C;
+}
+
+audio
+{
+	width: 150px;
+	//background: #9C9C9C;
+}
+
+#quiz-link
+{
+	display:none;
+}
+
+
+
+/* not used at this time
+h1
+{
+	text-align: center;
+//	text-decoration: underline;
+	
+}
+#main-info
+{
+	float: left;
+	width: 627px;
+	//width 500px;
+	//text-align: center;
+	//background: ##9C9C9C;
+	height:800px
+}
+*/
+
+
+
+
