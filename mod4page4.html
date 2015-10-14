@@ -3,6 +3,8 @@
 	<head>
 		<meta charset="utf-8"/>
 		<link href="styles/styles.css" rel="stylesheet" type="text/css"/>
+		<link href="styles/hot-spots-styles-mod4.css" rel="stylesheet" type="text/css"/>
+		<script language="javascript" src="scripts/hot-spots-mod4.js"></script>
 	</head>	
 	<!-- This is module 4 page 4 -->
 	<body>
@@ -37,8 +39,36 @@
 					<!-- Course content goes here -->
 					
 					<p>"Hover your mouse over each letter to learn more about setting SMART goals.”</p>
-					<p>Hot Spot Activity - SMART Goal (acronym) with definition and how it applies to setting new fitness goals</p>
-									
+					
+				<div id="hotspots">
+					<div class="column">
+					 	<div id="hs1" class="hotspot" 
+				     		onmouseover="javascript:showText( 1 )"
+				     		onmouseout="javascript:hideOutput()"><p>S - Specific</p></div> 
+					</div>
+					<div class="column">
+				     	<div id="hs2" class="hotspot" 
+				     		onmouseover="javascript:showText( 2 )"
+				     		onmouseout="javascript:hideOutput()"><p>M - Measurable</p></div>  
+					</div>             
+					<div class="column">        
+				 		<div id="hs3" class="hotspot"
+				     		onmouseover="javascript:showText( 3 )"
+				     		onmouseout="javascript:hideOutput()"><p>A - Attainable</p></div> 
+					</div>
+					<div class="column">
+					 	<div id="hs4" class="hotspot" 
+				     		onmouseover="javascript:showText( 4 )"
+				     		onmouseout="javascript:hideOutput()"><p>R - Realistic</p></div>
+					</div>
+					<div class="column">
+					 	<div id="hs5" class="hotspot" 
+				     		onmouseover="javascript:showText( 5 )"
+				     		onmouseout="javascript:hideOutput()"><p>T - Time Bound</p></div>
+					</div>
+				</div>
+					
+								
 					<!-- Course content ends here -->
 				</div>	
 				
@@ -55,12 +85,15 @@
 						</header>
 						<div id="transcript">
 							<p>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac ipsum id odio congue faucibus quis id neque.
-								 Quisque massa odio, vehicula eget arcu eu, vulputate eleifend sem.
-								 Vestibulum in maximus urna, a dictum lacus. Morbi blandit fringilla condimentum. 
-								 Mauris gravida sagittis leo, quis efficitur urna efficitur vitae. Donec placerat vulputate imperdiet.
-								 Curabitur a risus vitae erat tincidunt sodales a ut erat. Aenean quis aliquam mauris.
-							</p>
+								Now that you have met your goal weight, it is time to reevaluate your goals and set new hires! Using the SMART technique for setting goals is a great way to continue making progress.</p>
+								<ul>
+									<li>S – Specific –Your goal should be clear and easy to understand. </li>
+									<li>M – Measurable –A goal to “lose weight” is not enough. Making your goal measurable means adding a number.</li>
+									<li>A – Attainable –Before you can add a number, you have to know how high or low you want to go.</li>
+									<li>R – relevant –Set goals that are important to where you are in your life right now.</li>
+									<li>T – Time-Bound –Include an end-point. Knowing that you have a deadline motivates you to get started.	</li>
+								</ul>
+									</p>
 							<br><br><br>
 						</div>
 					</aside>
