@@ -4,7 +4,7 @@ body
 	padding: 0px;
 	font-size: 12px;
 	font-family: Arial;
-	background: #D9E8F5;
+//	background: #BCE1F4;
 }
 
 /* controls whether to display the frame */
@@ -16,14 +16,13 @@ body
 /* setting for the site map navigation section*/
 #site-map
 {
-	display:table;
 	float: top;
 	width: 895px;
 	height: 30px;
 	overflow: auto;
 	margin: 5px;
 	text-align: left;
-	background: #F26101;
+	background: #9C9C9C;
 }
 
 #course-header
@@ -36,14 +35,15 @@ body
 /* settings for the left side navigation section */
 #navigation
 {
-	display:block;
+	display:table;
 	width: 150px;
 	float: left;
 	height: 500px;
 	margin: 5px;
 	overflow: auto;
 	text-color: #000000;
-	background: #D9E8F5;
+	//text-decoration: underline;
+	//background: #9C9C9C;
 }
 
 
@@ -57,7 +57,7 @@ body
 	margin: 5px;
 	overflow: auto;
 	//padding-left: 5px;
-	background: #FFFFFF;
+	background: #9C9C9C;
 }
 
 #aside-info
@@ -67,7 +67,7 @@ body
 	vertical-align: top;
 	padding-left: 5px;
 	text-align: left;
-	background: #D9E8F5;
+	//background: #9C9C9C;
 }
 
 #aside-title-audio
@@ -76,7 +76,7 @@ body
 	width: 150px;
 	font-size: 14px;
 	font-weight: bold;
-	background: #D9E8F5;
+	//background: #9C9C9C;
 	
 }
 
@@ -86,13 +86,13 @@ body
 	font-size: 12px;
 	overflow: auto;
 	width: 150px;
-	background: #D9E8F5;
+	background: #9C9C9C;
 }
 
 audio
 {
 	width: 150px;
-	background: #D9E8F5;
+	//background: #9C9C9C;
 }
 
 #quiz-link
@@ -100,42 +100,12 @@ audio
 	display:none;
 }
 
-.sitemapnav
-{
-	display:table-cell;
-	padding-left:4px;
-	padding-right:4px;
-	text-decoration:none;
-	text-align:center;
-	vertical-align:middle;
-	color:#003354;
-}
-
-.sitemapnav:visited
-{
-
-	color:#003354;
-}
-
-.sitemapnav:hover
-{
-	
-	text-decoration:underline;
-	background:#F2792A;
-}
-
 .navlinks
 {
-	display:block;
-	padding-top:2px;
-	padding-bottom:2px;
-	color:#003354;
+	display:table-cell;
+	padding-top:5px;
 }
 
-.navlinks:hover
-{
-	background:#91BED4;
-}
 
 /* not used at this time
 h1
