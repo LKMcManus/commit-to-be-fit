@@ -35,6 +35,7 @@ body
 /* settings for the left side navigation section */
 #navigation
 {
+	display:table;
 	width: 150px;
 	float: left;
 	height: 500px;
@@ -99,6 +100,11 @@ audio
 	display:none;
 }
 
+.navlinks
+{
+	display:table-cell;
+	padding-top:5px;
+}
 
 
 /* not used at this time
