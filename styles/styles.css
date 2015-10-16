@@ -133,6 +133,14 @@ audio
 	color:#003354;
 }
 
+.navlinks:visited
+{
+	display:block;
+	padding-top:2px;
+	padding-bottom:2px;
+	color:#990099;
+}
+
 .navlinks:hover
 {
 	background:#91BED4;
