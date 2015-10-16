@@ -2,7 +2,7 @@
 {
 	display: table-cell;
 	padding: 10px;
-	width: 50x;
+	width: 50px;
 }
 
 .hotspot
@@ -13,7 +13,7 @@
 	text-align: center;
 	height: 50px;
 	width: 70px;
-	vertical-align: center;
+	vertical-align: middle;
 	position: relative;
 }
 

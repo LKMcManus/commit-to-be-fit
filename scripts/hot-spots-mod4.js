@@ -2,6 +2,7 @@
 // This function shows output text box and fills it with
 // the corresponding text.  The variable number represents
 // the hotspot number.  
+
 function showText( number )
 {
 	// show the output box
