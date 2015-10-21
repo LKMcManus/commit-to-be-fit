@@ -149,6 +149,7 @@ audio
 .buttons
 {
 	text-decoration: none;
+	padding: 4px;
 	color: black;
 	/*border: solid #528C9C;*/
 }
