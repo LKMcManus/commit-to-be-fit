@@ -146,6 +146,18 @@ audio
 	background:#91BED4;
 }
 
+.buttons
+{
+	text-decoration: none;
+	color: black;
+	/*border: solid #528C9C;*/
+}
+
+.buttons:hover
+{
+	background-color: #e3e3e3;
+}
+
 /* not used at this time
 h1
 {
