@@ -78,3 +78,42 @@ function finishCourse()
 	oScorm.save();
 	oScorm.quit();
 }
+
+function visitModule1Page1()
+{
+	sessionStorage.setItem("module1page1", "visited");
+	checkVisitsModule1();
+}
+
+function visitModule1Page2()
+{
+	sessionStorage.setItem("module1page2", "visited");
+	checkVisitsModule1();
+}
+
+function visitModule1Page3()
+{
+	sessionStorage.setItem("module1page3", "visited");
+	checkVisitsModule1();
+}
+
+function visitModule1Page4()
+{
+	sessionStorage.setItem("module1page4", "visited");
+	checkVisitsModule1();
+}
+
+
+function checkVisitsModule1()
+{
+	var mod1value1 = sessionStorage.getItem ("module1page1");
+	var mod1value2 = sessionStorage.getItem ("module1page2");
+	var mod1value3 = sessionStorage.getItem ("module1page3");
+	var mod1value4 = sessionStorage.getItem ("module1page4");
+	
+	if( mod1value1== "visited" && mod1value2=="visited" && mod1value3=="visited"  && mod1value4=="visited")
+	{
+	document.getElementById( "content-frame" ).contentWindow.document.getElementById( "quiz-link" ).style.display = "inline"; 
+	}
+	
+}

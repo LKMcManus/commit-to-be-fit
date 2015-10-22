@@ -10,7 +10,7 @@ body
 /* controls whether to display the frame */
 #content-frame
 {
-	/* border: none; */
+	border: none;
 }
 
 /* setting for the site map navigation section*/
