@@ -103,13 +103,13 @@ function visitModule1Page4()
 	checkVisitsModule1();
 }
 
-
 function checkVisitsModule1()
 {
 	var mod1value1 = sessionStorage.getItem ("module1page1");
 	var mod1value2 = sessionStorage.getItem ("module1page2");
 	var mod1value3 = sessionStorage.getItem ("module1page3");
 	var mod1value4 = sessionStorage.getItem ("module1page4");
+
 	var module1 = "no";
 	
 	if( mod1value1== "visited" && mod1value2=="visited" && mod1value3=="visited"  && mod1value4=="visited")
