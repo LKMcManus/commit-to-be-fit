@@ -21,28 +21,28 @@ function processQuiz()
 		{   
 			score = score + 1;
 			} 
-		alert("You got " + score + " correct!");
+		
 var q4 = document.forms.quiz1.question4;   
 		
 		if( q4[ 1 ].checked )  
 		{   
 			score = score + 1;
 			} 
-		alert("You got " + score + " correct!");
+		
 var q5 = document.forms.quiz1.question5;   
 		
 		if( q5[ 0 ].checked )  
 		{   
 			score = score + 1;
 			} 
-		alert("You got " + score + " correct!");
+		
 var q6 = document.forms.quiz1.question6;   
 		
 		if( q6[ 0 ].checked )  
 		{   
 			score = score + 1;
 			} 
-		alert("You got " + score + " correct!");
+		
 		
 var q7 = document.forms.quiz1.question7;   
 		
@@ -50,7 +50,7 @@ var q7 = document.forms.quiz1.question7;
 		{   
 			score = score + 1;
 			} 
-		alert("You got " + score + " correct!");
+		
 		
 var q8 = document.forms.quiz1.question8;   
 		
@@ -58,14 +58,14 @@ var q8 = document.forms.quiz1.question8;
 		{   
 			score = score + 1;
 			} 
-		alert("You got " + score + " correct!");
+		
 var q9 = document.forms.quiz1.question9;   
 		
 		if( q9[ 0 ].checked )  
 		{   
 			score = score + 1;
 			} 
-		alert("You got " + score + " correct!");
+		
 var q10 = document.forms.quiz1.question10;   
 		
 		if( q10[ 0 ].checked )  
