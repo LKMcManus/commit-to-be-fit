@@ -72,5 +72,6 @@ var q10 = document.forms.quiz1.question10;
 		{   
 			score = score + 1;
 			} 
+		
 		alert("You got " + score + " correct!");
 	} 
