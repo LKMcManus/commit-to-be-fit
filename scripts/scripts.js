@@ -120,6 +120,8 @@ function checkVisitsModule1()
 	
 }
 
+
+
 function visitModule2Page1()
 {
 	sessionStorage.setItem("module2page1", "visited");
