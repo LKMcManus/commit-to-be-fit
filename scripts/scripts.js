@@ -105,7 +105,7 @@ function visitModule1Page4()
 
 function checkVisitsModule1()
 {
-	var mod1value1 = sessionStorage.getItem ("module1page1");
+	
 	var mod1value2 = sessionStorage.getItem ("module1page2");
 	var mod1value3 = sessionStorage.getItem ("module1page3");
 	var mod1value4 = sessionStorage.getItem ("module1page4");
@@ -134,7 +134,7 @@ function visitModule2Page2()
 
 function visitModule2Page3()
 {
-	sessionStorage.setItem("module1page3", "visited");
+	sessionStorage.setItem("module2page3", "visited");
 	checkVisitsModule2();
 }
 
@@ -154,6 +154,47 @@ function checkVisitsModule2()
 	var module2 = "no";
 	
 	if( mod2value2=="visited" && mod2value3=="visited"  && mod2value4=="visited")
+	{
+	document.getElementById( "content-frame" ).contentWindow.document.getElementById( "quiz-link" ).style.display = "inline";
+	module2 = "visited";
+	}
+	
+}
+
+function visitModule3Page1()
+{
+	sessionStorage.setItem("module3page1", "visited");
+	checkVisitsModule3();
+}
+
+function visitModule3Page2()
+{
+	sessionStorage.setItem("module3page2", "visited");
+	checkVisitsModule3();
+}
+
+function visitModule3Page3()
+{
+	sessionStorage.setItem("module3page3", "visited");
+	checkVisitsModule3();
+}
+
+function visitModule3Page4()
+{
+	sessionStorage.setItem("module2page4", "visited");
+	checkVisitsModule3();
+}
+
+function checkVisitsModule3()
+{
+	
+	var mod3value2 = sessionStorage.getItem ("module3page2");
+	var mod3value3 = sessionStorage.getItem ("module3page3");
+	var mod3value4 = sessionStorage.getItem ("module3page4");
+
+	var module3 = "no";
+	
+	if( mod3value2=="visited" && mod3value3=="visited"  && mod3value4=="visited")
 	{
 	document.getElementById( "content-frame" ).contentWindow.document.getElementById( "quiz-link" ).style.display = "inline";
 	module2 = "visited";
