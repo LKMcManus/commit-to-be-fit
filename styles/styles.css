@@ -21,7 +21,7 @@ body
 	width: 895px;
 	height: 30px;
 	overflow: auto;
-	margin: 5px;
+	//margin: 5px;
 	text-align: left;
 	background: #F26101;
 }
@@ -151,7 +151,7 @@ audio
 	text-decoration: none;
 	padding: 4px;
 	color: black;
-	/*border: solid #528C9C;*/
+	border: solid #528C9C;
 }
 
 .buttons:hover

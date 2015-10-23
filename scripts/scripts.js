@@ -119,3 +119,44 @@ function checkVisitsModule1()
 	}
 	
 }
+
+function visitModule2Page1()
+{
+	sessionStorage.setItem("module2page1", "visited");
+	checkVisitsModule2();
+}
+
+function visitModule2Page2()
+{
+	sessionStorage.setItem("module2page2", "visited");
+	checkVisitsModule2();
+}
+
+function visitModule2Page3()
+{
+	sessionStorage.setItem("module1page3", "visited");
+	checkVisitsModule2();
+}
+
+function visitModule2Page4()
+{
+	sessionStorage.setItem("module2page4", "visited");
+	checkVisitsModule2();
+}
+
+function checkVisitsModule2()
+{
+	
+	var mod2value2 = sessionStorage.getItem ("module2page2");
+	var mod2value3 = sessionStorage.getItem ("module2page3");
+	var mod2value4 = sessionStorage.getItem ("module2page4");
+
+	var module2 = "no";
+	
+	if( mod2value2=="visited" && mod2value3=="visited"  && mod2value4=="visited")
+	{
+	document.getElementById( "content-frame" ).contentWindow.document.getElementById( "quiz-link" ).style.display = "inline";
+	module2 = "visited";
+	}
+	
+}
