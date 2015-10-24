@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="utf-8"/>
 		<link href="styles/styles.css" rel="stylesheet" type="text/css"/>
+		<script language="javascript" src="scripts/quizMod2.js"></script>
 	</head>	
 	<!-- This is module 2 quiz -->
 	<body>
@@ -36,21 +37,27 @@
 				<div id="main-content">
 					<!-- Course content goes here -->
 					<h1>Module 2 Quiz</h1>
-					
-					<p>5 questions on Calories, Cholesterol, blood pressure, structural alignment, and range of motion.</p>
-					Module 2 page 5 check point
-1.	Using your hand to help you measure what is a good portion size for meat?
-A.	Thumb
-B.	Palm*
-C.	Fist
-2.	Which Cholesterol is known as the bad cholesterol that you want to be low?
-A.	LDL*
-B.	HDL
-C.	FDL
-3.	How does incorporating stretching and balance exercises help you lose weight?
-A.	Helps to avoid injury so you can keep exercising*
-B.	Stretching exercises lengthen fat cells so that flatten out and disintegrate
-C.	Stretching causes micro-tares in your intestines so you don’t store as much fat
+				<form id="quiz1" name="quiz1" action="javascript:processQuiz();"> 		
+					<p>Please select the correct answer.</p>  
+						 <label for="question1">1.	Using your hand to help you measure what is a good portion size for meat?</label>  <br/>  
+						 <input type="radio" id="question1" name="question1" value="0">  Thumb </input><br/>  
+						 <input type="radio" id="question1" name="question1" value="1">  Palm* </input><br/> 
+						 <input type="radio" id="question1" name="question1" value="2">  Fist* </input><br/>  
+						 <br>
+											
+						 <label for="question2">2.  Which cholesterol is known as the bad cholesterol that you want to be low?</label>  <br/>  
+						 <input type="radio" id="question2" name="question2" value="0">  LDL* </input><br/>  
+						 <input type="radio" id="question2" name="question2" value="1">  HDL </input><br/> 
+						 <input type="radio" id="question2" name="question2" value="2">  FDL </input><br/>  
+						 <br>				
+							
+						 <label for="question3">3.	How does incorporating stretching and balance exercises help you lose weight? </label>  <br/>  
+						 <input type="radio" id="question3" name="question3" value="0">  Helps to avoid injury so you can keep exercising* </input><br/>  
+						 <input type="radio" id="question3" name="question3" value="1">  Stretching exercises lengthen fat cells so that flatten out and disintegrate </input><br/>   
+						 <input type="radio" id="question3" name="question3" value="2">  Stretching causes micro-tears in your intestines so you don’t store as much fat </input><br/>  
+						 <br> 
+						 <input type="submit" value="Submit Answers"/>
+					 </form> 	
 					
 					<!-- Course content ends here -->
 					
