@@ -23,3 +23,4 @@ function processQuiz()
 			} 
 	
 		alert("You got " + score + " correct!");
+}
