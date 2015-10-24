@@ -22,7 +22,7 @@ function processQuiz()
 			score = score + 1;
 			} 
 		
-		var q4 = document.forms.quiz1.question3;   
+		var q4 = document.forms.quiz1.question4;   
 		
 		if( q4[ 4 ].checked )  
 		{   
