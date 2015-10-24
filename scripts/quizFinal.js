@@ -66,7 +66,7 @@ var q9 = document.forms.quiz1.question9;
 			score = score + 1;
 			} 
 		
-var q10 = document.forms.quiz1.question10;   
+var q10 = document.forms.quiz1.question10;  
 		
 		if( q10[ 0 ].checked )  
 		{   
