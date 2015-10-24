@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="utf-8"/>
 		<link href="styles/styles.css" rel="stylesheet" type="text/css"/>
+			<script language="javascript" src="scripts/quizMod3B.js"></script>
 	</head>	
 	<!-- This is module 3b checkpoint -->
 	<body>
@@ -36,26 +37,34 @@
 				
 				<div id="main-content">
 					<!-- Course content goes here -->
+					<form id="quiz1" name="quiz1" action="javascript:processQuiz();"> 
 					<h1>Strength and Low Carb: Checkpoint</h1>
-					<p>4 Questions - multiple choice and True/False.</p>
-					
-1.	When you breathe during strength training you should ideally:
-a.	Exhale as you lift the eight and inhale as you return to resting position *
-b.	Hold your breath until end of exercise
-c.	Get as many quick short breaths in as you can for each rep
-2.	When you create a strength training program you should only work one muscle group each week.
-a.	True
-b.	False *
-3.	According to the article when should you eat protein to benefit your muscles most.
-a.	Never protein is not needed for muscle building
-b.	A protein intake before and after a workout has been scientifically proven to have great benefits for muscle energy expenditure and recovery. *
-c.	Only eat protein if you cannot find cookies.
-4.	What fundamentals for strength training are important?
-a.	Control the weight
-b.	Breathe
-c.	Focus on form
-d.	Include variation
-e.	All of the above *
+					<p>Please select the correct answer.</p>  
+						 <label for="question1">1.	When you breathe during strength training you should ideally:</label>  <br/>  
+						 <input type="radio" id="question1" name="question1" value="0">  Exhale as you lift the eight and inhale as you return to resting position * </input><br/>  
+						 <input type="radio" id="question1" name="question1" value="1">  Hold your breath until end of exercise</input><br/> 
+						 <input type="radio" id="question1" name="question1" value="2">  Get as many quick short breaths in as you can for each rep</input><br/>  
+						 <br>
+											
+						 <label for="question2">2.	When you create a strength training program, you should only work one muscle group each week.</label>  <br/>  
+						 <input type="radio" id="question2" name="question2" value="0">  True </input><br/>  
+						 <input type="radio" id="question2" name="question2" value="1">  False* </input><br/> 
+						 <br>				
+							
+						 <label for="question3">3.	According to the article, when should you eat protein to benefit your muscles most? </label>  <br/>  
+						 <input type="radio" id="question3" name="question3" value="0">  Never protein is not needed for muscle building </input><br/>  
+						 <input type="radio" id="question3" name="question3" value="1">   A protein intake before and after a workout has been scientifically proven to have great benefits for muscle energy expenditure and recovery. * </input><br/>   
+						 <input type="radio" id="question3" name="question3" value="2">  Only eat protein if you cannot find cookies.</input><br/>  
+						 						 <br>
+						 
+						 <label for="question4">4.	What fundamentals for strength training are important? </label>  <br/>  
+						 <input type="radio" id="question4" name="question4" value="0">  Control the weight </input><br/>  
+						 <input type="radio" id="question4" name="question4" value="1">   Breathe </input><br/>   
+						  <input type="radio" id="question4" name="question4" value="2">  Focus on Form </input><br/>  
+						 <input type="radio" id="question4" name="question4" value="3">   Include Variation </input><br/>   
+						  <input type="radio" id="question4" name="question4" value="4">  All of the Above* </input><br/>  
+						 <br>					
+ <input type="submit" value="Submit Answers"/>
 							
 					<!-- Course content ends here -->
 					
