@@ -34,3 +34,6 @@ function processQuiz()
 		score = score + 1;
 		} 
 		alert("You got " + score + " correct!");
+}
+		
+		
