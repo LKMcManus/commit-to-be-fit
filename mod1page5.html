@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="utf-8"/>
 		<link href="styles/styles.css" rel="stylesheet" type="text/css"/>
+			<script language="javascript" src="scripts/quizMod1.js"></script>
 	</head>	
 	<!-- This is module 1 quiz -->
 	<body>
@@ -35,28 +36,38 @@
 				
 				<div id="main-content">
 					<!-- Course content goes here -->
-					<h1>Module 1 Quiz</h1>
-					<p>5 Questions Quiz about BMI, Cardio, Stretching PLEASE HELP(I tried to do formatting for quiz with buttons by coppying mod3page 5 info but naming things quiz 2 and inputting my questions and answer but this broke my eclipse for some reason.  The scripts page is correct named quizMod1.js)</p>
-					
-					Module 1-page 5-checkpoint
-1.	What is your simple commit to be fit program?
-a.	Eat Less, Move More, Get Help.*
-b.	Eat more, move less, think you have it figured out.
-c.	Don’t eat, Exercise like you don’t have a life, Pay a lot of money for a personal trainer
-2.	What BMI score means you have fat weight to lose?
-a.	10 or higher
-b.	50 or higher
-c.	25 or higher*
-3.	True or False: You can break up your cardiovascular workouts into 10 minute sessions.
-a.	True*
-b.	False
-4.	True or False: You should do strength training every day.
-a.	True
-b.	False*
-5.	Stretching is recommended for adults to be done
-a.	3-5 days a week
-b.	Held for 10-30 seconds for a total of 60 seconds
-c.	Both A and B*
+	<form id="quiz1" name="quiz1" action="javascript:processQuiz();"> 
+						 <h1>Module 1 Quiz</h1>  
+						 <p>Please select the correct answer.</p>  
+						 <label for="question1">1.	What is your simple commit to be fit program?</label>  <br/>  
+						 <input type="radio" id="question1" name="question1" value="0">  Eat Less, Move More, Get Help.* </input><br/>  
+						 <input type="radio" id="question1" name="question1" value="1">  Eat more, move less, think you have it figured out.</input><br/> 
+						 <input type="radio" id="question1" name="question1" value="2">  Don’t eat, Exercise like you don’t have a life, Pay a lot of money for a personal trainer</input><br/>  
+						 <br>
+											
+						 <label for="question2">What BMI score means you have fat weight to lose?</label>  <br/>  
+						 <input type="radio" id="question2" name="question2" value="0">  10 or higher </input><br/>  
+						 <input type="radio" id="question2" name="question2" value="1">  50 or higher </input><br/> 
+						 <input type="radio" id="question2" name="question2" value="2">  25 or higher* </input><br/>  
+						 <br>				
+							
+						 <label for="question3">3.	True or False: You can break up your cardiovascular workouts into 10 minute sessions. </label>  <br/>  
+						 <input type="radio" id="question3" name="question3" value="0">  *True </input><br/>  
+						 <input type="radio" id="question3" name="question3" value="1">   False </input><br/>   
+						 <br>
+						 
+						 <label for="question4">4.	True or False: You should do strength training every day. </label>  <br/>  
+						 <input type="radio" id="question4" name="question4" value="0">  True </input><br/>  
+						 <input type="radio" id="question4" name="question4" value="1">   *False </input><br/>   
+						 <br>
+						 
+						 <label for="question5">5.  Stretching is recommended for adults to be done:</label>  <br/>  
+						 <input type="radio" id="question5" name="question5" value="0">  A. 3-5 days a week </input><br/>  
+						 <input type="radio" id="question5" name="question5" value="1">  B. Held for 10-30 seconds for a total of 60 seconds</input><br/> 
+						 <input type="radio" id="question5" name="question5" value="2">  C. Both A and B </input><br/>  
+						 <br>	
+						 <input type="submit" value="Submit Answers"/>
+					 </form> 					
 					
 					<!-- Course content ends here -->
 					
