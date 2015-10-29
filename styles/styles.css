@@ -160,11 +160,10 @@ audio
 }
 
 
-table
+#nav-buttons
 {
-	margin: auto;
+	text-align: center;
 }
-
 
 /* not used at this time
 h1
