@@ -20,7 +20,7 @@ body
 	/*float: top;*/
 	width: 895px;
 	height: 30px;
-	overflow: auto;
+	/*overflow: auto;*/
 	/*margin: 5px;*/
 	text-align: left;
 	background: #F26101;
@@ -41,7 +41,7 @@ body
 	float: left;
 	height: 500px;
 	margin: 5px;
-	overflow: auto;
+	/*overflow: auto;*/
 	color: #000000;
 	background: #D9E8F5;
 }
@@ -85,6 +85,7 @@ body
 {
 	/*color: green;*/
 	font-size: 12px;
+	height: 400px;
 	overflow: auto;
 	width: 150px;
 	background: #D9E8F5;
