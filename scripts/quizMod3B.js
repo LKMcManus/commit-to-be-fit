@@ -28,5 +28,6 @@ function processQuiz()
 		{   
 			score = score + 1;
 			} 
-		alert("You got " + score + " correct!");
+		alert("You got " + score + " correct! If you got all questions correct, move on to Module 4. If not, retake Module 3.");
+
 	} 
