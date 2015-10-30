@@ -52,11 +52,11 @@ body
 #main-content
 {
 	height: 500px;
-	width: 545px;
+	width: 540px;
 	float: left;
 	margin: 5px;
 	overflow: auto;
-	/*padding-left: 5px;*/
+	padding-left: 5px;
 	background: #FFFFFF;
 }
 
