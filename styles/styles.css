@@ -166,6 +166,17 @@ audio
 	text-align: center;
 }
 
+strong
+{
+	color:#003354;
+	font-size:120%;
+}
+
+figcaption
+{
+	font-style:italic;
+	color:#484848;
+}
 /* not used at this time
 h1
 {
