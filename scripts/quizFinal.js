@@ -75,5 +75,6 @@ var q10 = document.forms.quiz1.question10;
 		
 	alert("You got " + score + " correct!");
 	parent.reportScores( score );
-	parent.checkCertificate(score);
+	parent.checkCertificate( score );
+	
 } 

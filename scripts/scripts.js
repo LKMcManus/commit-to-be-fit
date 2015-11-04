@@ -317,7 +317,7 @@ function checkVisitsModule4()
 	}
 }
 
-function checkCertificate()
+function checkCertificate(score)
 {
 	if( score >= 8)
 	{
