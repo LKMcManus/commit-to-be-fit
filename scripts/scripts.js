@@ -323,7 +323,7 @@ function checkCertificate(score)
 	if( score >= 8)
 	{
 		document.getElementById( "content-frame" ).contentWindow.document.getElementById( "certificate-link" ).style.display = "inline";
-		alert("Cert");
+		/*alert("Cert");*/
 	}
 }
 
