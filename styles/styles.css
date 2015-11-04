@@ -102,6 +102,12 @@ audio
 	display:none;
 }
 
+#certificate-link
+{
+	display:none;
+}
+
+
 .sitemapnav
 {
 	display:table-cell;
