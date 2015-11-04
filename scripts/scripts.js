@@ -67,6 +67,7 @@ function initializeSCORM()
 
 function visitCertificate()
 {
+	//var learner_name = "Anthony";
 	var learner_name = oScorm.get( "cmi.learner_name" );
 	document.getElementById( "content-frame" ).
 	contentWindow.document.getElementById( "user-name" ).innerHTML = learner_name;
