@@ -65,6 +65,14 @@ function initializeSCORM()
 	}
 }
 
+function visitCertificate()
+{
+	var learner_name = oScorm.get( "cmi.learner_name" );
+	document.getElementById( "content-frame" ).
+contentWindow.document.getElementById( "user-name" ).innerHTML = learner_name;
+}
+
+
 // This function reports the score from the assessment to the LMS
 // This should only be called when the user submits the answers to the quiz
 function reportScores(score)
