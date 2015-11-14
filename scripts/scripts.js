@@ -86,12 +86,12 @@ function reportScores(score)
 	oScorm.set("cmi.score.scaled", score / 100 );
 	
 	if (score >= 80)
-		{
-			//alert("You passed!");
-			oScorm.set( "cmi.success_status", "passed" );
-			oScorm.set( "cmi.completion_status", "completed" );
-			oScorm.set( "cmi.lesson_status", "passed" );
-		}
+	{
+		//alert("You passed!");
+		oScorm.set( "cmi.success_status", "passed" );
+		oScorm.set( "cmi.completion_status", "completed" );
+		oScorm.set( "cmi.lesson_status", "passed" );
+	}
 		
 	oScorm.save();
 }
