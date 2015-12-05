@@ -67,8 +67,10 @@ function initializeSCORM()
 
 function visitCertificate()
 {
-	//var learner_name = "Anthony";
+	//var learner_name = "Espinoza,Anthony";
 	var learner_name = oScorm.get( "cmi.learner_name" );
+	var temp = learner_name.split(",");
+	learner_name = temp[1] + " " + temp[0];
 	document.getElementById( "content-frame" ).
 	contentWindow.document.getElementById( "user-name" ).innerHTML = learner_name;
 }
@@ -78,14 +80,14 @@ function visitCertificate()
 // This should only be called when the user submits the answers to the quiz
 function reportScores(score)
 {	
-	alert( "REPORTED" );
+	//alert( "REPORTED" );
 	score=score*10;
 	oScorm.set("cmi.score.raw", score );
 	oScorm.set("cmi.score.min", 0 );
 	oScorm.set("cmi.score.max", 100 );
 	oScorm.set("cmi.score.scaled", score / 100 );
 	
-	if (score >= 80)
+	if (score >= 10)
 	{
 		//alert("You passed!");
 		oScorm.set( "cmi.success_status", "passed" );
